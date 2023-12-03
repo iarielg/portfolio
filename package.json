@@ -1,25 +1,18 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Portfolio Ariel González",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://iarielg.github.io/portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
+    "build-gh": "parcel build --public-url 'https://iarielg.github.io/portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
-  },
   "author": "Microsoft",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
-  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
